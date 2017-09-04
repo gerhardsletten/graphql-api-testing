@@ -1,0 +1,24 @@
+{
+  "name": "employee-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro -p ${PORT:-3010}",
+    "dev": "micro-dev"
+  },
+  "author": "Eyvind Gerhard Sletten <gerhardsletten@gmail.com> (http://www.metabits.no/)",
+  "license": "ISC",
+  "dependencies": {
+    "fs-readfile-promise": "^3.0.0",
+    "graphql": "^0.11.2",
+    "graphql-server-micro": "^1.1.0",
+    "graphql-tools": "^1.2.2",
+    "json-parse-async": "^1.0.3",
+    "micro": "^8.0.4",
+    "micro-cors": "0.0.4"
+  },
+  "devDependencies": {
+    "micro-dev": "^1.2.2"
+  }
+}
